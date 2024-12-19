@@ -12,8 +12,8 @@ A barebone template for building real-time voice applications with OpenAI's API 
 - WebRTC-based audio streaming
 
 ## ❤️ Support & Get 400+ AI Projects
+This is one of 400+ fascinating projects in my collection! Support me on Patreon to get:
 
-This is one of 400+ fascinating projects in my collection! **[Support me on Patreon](https://www.patreon.com/c/echohive42/membership)** to get:
 - 🎯 Access to 400+ AI projects (and growing daily!)
 - 📥 Full source code & detailed explanations
 - 📚 1000x Cursor Course

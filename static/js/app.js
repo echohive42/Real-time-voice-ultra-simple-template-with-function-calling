@@ -43,10 +43,26 @@ function updateStatus(status, isConnected = false) {
 
 function addMessage(text, type = 'info') {
     const messageDiv = document.createElement('div');
-    messageDiv.className = `message my-2 p-2 rounded ${type === 'error' ? 'bg-error text-error-content' : 'bg-info text-info-content'}`;
+    messageDiv.className = `message ${type}`;
     messageDiv.textContent = text;
     messagesDiv.appendChild(messageDiv);
-    messagesDiv.scrollTop = messagesDiv.scrollHeight;
+    
+    // Force a reflow to ensure the animation triggers
+    messageDiv.offsetHeight;
+    
+    // Add show class after a small delay to trigger the animation
+    requestAnimationFrame(() => {
+        messageDiv.classList.add('show');
+    });
+    
+    // Smooth scroll to the new message
+    messageDiv.scrollIntoView({ behavior: 'smooth', block: 'end' });
+    
+    // Limit the number of messages to prevent memory issues
+    const messages = messagesDiv.getElementsByClassName('message');
+    if (messages.length > 100) {
+        messagesDiv.removeChild(messages[0]);
+    }
 }
 
 function showLoading(show) {
