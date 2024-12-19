@@ -13,15 +13,22 @@ A barebone template for building real-time voice applications with OpenAI's API 
 
 ## ❤️ Support & Get 400+ AI Projects
 
-This is one of 400+ fascinating projects in my collection! Support me on Patreon to get:
+This is one of 400+ fascinating projects in my collection! [Support me on Patreon](https://www.patreon.com/c/echohive42/membership) to get:
 
 - 🎯 Access to 400+ AI projects (and growing daily!)
-  - Including advanced projects like [Interactive Molecule Visualization &amp; Analysis](https://www.patreon.com/posts/molecule-webapp-118208752)
+  - Including advanced projects like [Interactive Molecule Visualization &amp; Analysis with Real-Time Voice AI](https://www.patreon.com/posts/molecule-webapp-118208752)
 - 📥 Full source code & detailed explanations
 - 📚 1000x Cursor Course
 - 🎓 Live coding sessions & AMAs
 - 💬 1-on-1 consultations (higher tiers)
-- 🎁 Exclusive discounts on AI tools
+- 🎁 Exclusive discounts on AI tools & platforms (up to $180 value)
+
+### Available Tiers:
+
+- **AI Connoisseur** ($30/month) - All code except advanced projects
+- **AI Architect** ($50/month) - All code + exclusive features
+- **AI Virtuoso** ($150/month) - 1-hour monthly 1-on-1 consultation
+- **AI Prodigy** ($450/month) - 3-hours monthly 1-on-1 consultation
 
 ## Technical Stack
 
