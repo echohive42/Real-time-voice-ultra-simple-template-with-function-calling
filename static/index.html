@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voice Chat</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.9.4/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    <style>
+        #messages {
+            max-height: 400px;
+            overflow-y: auto;
+        }
+        .message {
+            animation: fadeIn 0.3s ease-in;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body class="min-h-screen bg-base-300">
+    <div class="container mx-auto p-4">
+        <div class="card bg-base-100 shadow-xl">
+            <div class="card-body">
+                <h2 class="card-title text-primary">Voice Chat</h2>
+                
+                <!-- Status indicator -->
+                <div class="flex items-center gap-2 mb-4">
+                    <div id="statusIndicator" class="w-3 h-3 rounded-full bg-error"></div>
+                    <span id="statusText" class="text-sm">Disconnected</span>
+                </div>
+
+                <!-- Messages -->
+                <div id="messages" class="mb-4 p-4 bg-base-200 rounded-lg"></div>
+
+                <!-- Controls -->
+                <div class="flex gap-2">
+                    <button id="startButton" class="btn btn-primary">
+                        Start Voice Chat
+                    </button>
+                    <button id="stopButton" class="btn btn-error" disabled>
+                        Stop Voice Chat
+                    </button>
+                </div>
+
+                <!-- Loading animation -->
+                <div id="loadingAnimation" class="hidden mt-4">
+                    <span class="loading loading-dots loading-lg text-primary"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/static/js/app.js"></script>
+</body>
+</html> 
