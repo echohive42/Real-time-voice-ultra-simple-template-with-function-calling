@@ -23,13 +23,6 @@ This is one of 400+ fascinating projects in my collection! [Support me on Patreo
 - 💬 1-on-1 consultations (higher tiers)
 - 🎁 Exclusive discounts on AI tools & platforms (up to $180 value)
 
-### Available Tiers:
-
-- **AI Connoisseur** ($30/month) - All code except advanced projects
-- **AI Architect** ($50/month) - All code + exclusive features
-- **AI Virtuoso** ($150/month) - 1-hour monthly 1-on-1 consultation
-- **AI Prodigy** ($450/month) - 3-hours monthly 1-on-1 consultation
-
 ## Technical Stack
 
 - **Backend**: FastAPI
