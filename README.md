@@ -16,7 +16,7 @@ A barebone template for building real-time voice applications with OpenAI's API 
 This is one of 400+ fascinating projects in my collection! [Support me on Patreon](https://www.patreon.com/c/echohive42/membership) to get:
 
 - 🎯 Access to 400+ AI projects (and growing daily!)
-  - Including advanced projects like [Interactive Molecule Visualization &amp; Analysis with Real-Time Voice AI](https://www.patreon.com/posts/molecule-webapp-118208752)
+  - Including advanced projects like [2 Agent Real-time voice template with turn taking](https://www.patreon.com/posts/2-agent-real-you-118330397)
 - 📥 Full source code & detailed explanations
 - 📚 1000x Cursor Course
 - 🎓 Live coding sessions & AMAs
